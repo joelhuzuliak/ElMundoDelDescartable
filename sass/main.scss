@@ -1,0 +1,13 @@
+@import "./base";
+
+// Componentes 
+
+@import "./components/header.scss";
+@import "./components/footer.scss";
+
+// Carpetas
+
+@import "./pages/index";
+@import "./pages/productos";
+@import "./pages/sobrenosotros";
+@import "./pages/contacto";
