@@ -1,5 +1,42 @@
 header {
     width: 100%;
-    height: 10vh;
-    background-color: blueviolet;
+    height: 22vh;
+    background-color: rgb(3, 214, 144);
+
+    .header-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 60px;
+            margin: 7px;
+        }
+
+        a {
+            text-transform: uppercase;
+            color: black;
+        }
+    }
+
+    .header-busqueda {
+         display: none;
+    }
+
+    .header-navegacion {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            li {
+                margin: 10px;
+                
+            }
+        }
+    }
 }
